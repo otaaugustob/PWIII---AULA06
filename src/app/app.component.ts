@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  peso = 90;
-  altura = 1.78;
+  peso = 87;
+  altura = 1.76;
 
   exibir() : void{
   alert("O IMC é :" + this.peso / (this.altura*this.altura));
